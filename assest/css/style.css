@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+p,a,ul,li,ol,h1,h2,h3,h4,h5,h6{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/*===========================
+       nav part start
+============================*/
+.nav_menu{
+    padding-top: 63px !important;
+    background: #EEEDDE;
+}
+.nav_logo{
+    margin-right: 450px !important;
+}
+.nav_menu ul{
+    gap: 60px;
+    background: #FFFFFF;
+}
+#banner{
+    padding: 110px 0 !important;
+    background: #EEEDDE;
+}
+.banner_heading h1{
+    width: 770px;
+    height: 168px;
+    font-size: 56px;
+    font-weight: 600px;
+    line-height: 150%;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    margin-bottom: 24px !important;
+}
+.banner_heading p{
+    width: 544px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 56px !important;
+}
+.search{
+    width: 675px;
+    background: #fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 23px 14px!important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.location{
+    color: #000;
+    padding: 23px 12px !important;
+}
+.search input{
+    width: 351px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(32, 50, 57, 0.55%);
+    border: none;
+}
+.search .src_btn{
+    width: 140px;
+    height: 50px;
+    padding: 13px 40px !important;
+    color: #ffff;
+    background: #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 144px !important;
+}
+
+.banner_img{
+    width: 350px;
+    height: 450px;
+    padding: 0px 100px 150px 250px !important;
+}
+.counter_section{
+    width: 139px;
+}
+/*===========================
+       nav part end
+============================*/
+/*===========================
+       proparty part start
+============================*/
+#Properti{
+    padding: 100px !important;
+}
+.property_item{
+    padding: 20px 35px;
+    transition: all linear .3s;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.property_item:hover{
+    box-shadow: 0 10px 10px 0 #000;
+}
+.properti_text h2{
+    width: 533px;
+    height: 108px;
+    font-size: 36px;
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    margin-bottom: 24px !important;
+}
+.frist_property h3{
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    margin-bottom: 8px !important; 
+}
+.frist_property span{
+    margin-left: 132px !important;
+    color: #FF7527;
+}
+.frist_property p{
+    font-weight: 300;
+    height: 150px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    margin-bottom: 48px !important; 
+}
+.property_btm{
+    height: 20px;
+    width: 300px;
+    position: relative;
+    transition: all linear .3s;
+}
+.btn_hov{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    bottom: 0;
+    left: -100%;
+    background: black;
+    opacity: 0;
+}
+.btn_hov:hover{
+    left: 0;
+    opacity: 1;
+}
+.property_btm h4{
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+}
+.property_btm h4 i{
+    width: 13px;
+    margin-left: 8px !important;
+}
+/*===========================
+       proparty part end
+============================*/
+/*===========================
+       Residen part end
+============================*/
+#Residen{
+    padding: 68px !important;
+    background: #EEEDDE;
+}
+.Residen_text p{
+    width: 144px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #FF7527;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+}
+.Residen_text h4{
+    width: 300px;
+    font-size: 36px;
+    font-weight: 600px;
+    color: #203239;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 64px !important;
+}
+.residen_img{
+    width: 523px;
+    height: 544px;
+}
+.resident_text h4{
+    width: 507px;
+    font-size: 36px;
+    font-weight: 600px;
+    color: #203239;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px !important;
+    padding-left: 200px !important;
+}
+.resident_text p{
+    width: 570px;
+    height: 90px;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 30px;
+    color: #203239;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px !important;
+    padding-left: 200px !important;
+}
+.resident_btn{
+    margin: 55px 0px 298px 200px !important;
+}
+.resident_btn .resident_frstbtn{
+    width: 234px;
+    height: 50px;
+    background: #000;
+    border-radius: 10px;
+    padding: 13px 13px 47px 40px !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.resident_frstbtn p{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    
+}
+.resident_frstbtn i{
+    padding-right: 12px !important;
+}
+.resident_secbtn{
+    width: 251px;
+    height: 60px;
+    background: #000;
+    border-radius: 10px;
+    margin: 55px 13px 50px 150px !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+} 
+.resident_secbtn p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 13px 41px !important;
+}
+/*===========================
+       Residen part end
+============================*/
+/*===========================
+Berbagai_Kota part start
+============================*/
+#Berbagai_Kota{
+    padding-top: 68px;
+}
+.Berbagai_text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px !important;
+}
+.Berbagai_text h4{
+    width: 428px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 64px !important;
+}
+.frist_slide h5{
+    font-size: 24px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    margin: 16px 0 8px !important;
+}
+.frist_slide p{
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    line-height: 30px;
+    margin-bottom: 68px !important;
+}
+.slide_part{
+    position: relative;
+}
+.slide_part button{
+    position: absolute;
+    top: -60px;
+    right: 20px;
+}
+.slide_part .slick-prev{
+    right: 80px;
+}
+/*===========================
+ Berbagai_Kota part end
+============================*/
+/*===========================
+Hubungi part start
+============================*/
+#Hubungi{
+    padding: 48px 0;
+    background: #EEEDDE;
+}
+.hub_det_text> p, a{
+color: #000;
+font-size: 24px;
+}
+.hubungi_text h5{
+    font-size: 36px;
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    margin-bottom: 63px !important;
+}
+.logo_header h5{
+    font-size: 36px;
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+    color: #203239;
+    margin-bottom: 63px !important;
+}
+.hubugi_logoimg1 .logo1{
+    width: 156px;
+    height: 104px;
+    margin-right: 32px;
+}
+.hubugi_logoimg1 .logo2{
+    width: 212px;
+    height: 152px;
+}
+.uoii{
+    display: flex;
+    gap: 48px;
+}
+.hub{
+    border-radius: 10px;
+    border: 1px solid rgba(255, 117, 39, .5);
+    padding: 24px;
+}
+.hub_det{
+    margin-bottom: 24px;
+    display: flex;
+    gap: 16px;
+}
+.hub>a{
+    padding: 13px 61px !important;
+    border-radius: 10px;
+    background: rgba(255, 117, 39, .2);
+}
+.hub_det_icon i{
+    line-height: 56px;
+}
+.hubunngi_counter1{
+    display: flex;
+}
+
+
+
+#footer{
+    background: #203239;
+}
+.footer_logo{
+    color: #EEEDDE;
+}
+/*===========================
+ Hubungi part end
+============================*/
+/*===========================
+Berbagai_Kota part start
+============================*/
+#footer{
+    padding: 31px 0;
+}
+.footer_linklogo{
+    color: #FFFFFF;
+    
+
+}
+.footer_social ul{
+    line-height: 42px;
+    gap: 64px;
+    color: #EEEDDE;
+}
+/*===========================
+ Berbagai_Kota part end
+============================*/
